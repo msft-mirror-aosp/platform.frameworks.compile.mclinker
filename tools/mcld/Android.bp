@@ -67,12 +67,6 @@ cc_binary {
             // Include ARM libs to enable 32-bit linking on AARCH64 targets
             static_libs: MCLD_ARM_LIBS + MCLD_AARCH64_LIBS,
         },
-        android_mips: {
-            static_libs: MCLD_MIPS_LIBS,
-        },
-        android_mips64: {
-            static_libs: MCLD_MIPS_LIBS,
-        },
         android_x86: {
             static_libs: MCLD_X86_LIBS,
         },
