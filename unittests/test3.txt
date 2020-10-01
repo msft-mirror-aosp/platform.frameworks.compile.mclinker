@@ -165,7 +165,7 @@ do-proto-toplev: $(DEVO_SUPPORT) $(SUPPORT_FILES) texinfo/texinfo.tex
 	$(MAKE) distclean
 	# Kludge for pr gdb/857.  intl/Makefile.in lacks a couple
 	# of files in the distclean rule.  Zack W is planning to make
-	# the gcc version of intl/ the master version and then push
+	# the gcc version of intl/ the primary version and then push
 	# that version to src soon.  See:
 	#   http://sources.redhat.com/ml/binutils/2003-07/msg00032.html
 	# After the src version of intl/ is upgraded, we can look at
