@@ -35,9 +35,7 @@ cc_defaults {
 
     cppflags: [
         "-Wall",
-        "-Wno-unused-parameter",
-        "-Wno-unused-private-field",
-        "-Wno-unused-const-variable",
+        "-Wno-unused",
         "-Werror",
 
         //To enable asserts:
